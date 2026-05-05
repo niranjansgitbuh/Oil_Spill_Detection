@@ -31,6 +31,7 @@ app = FastAPI(
     version="1.0.0"
 )
 
+
 # --- CORS Configuration ---
 app.add_middleware(
     CORSMiddleware,
